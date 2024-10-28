@@ -29,7 +29,7 @@ def create_byb_chart():
     # ax2.tick_params(axis='y', labelcolor='red')
 
     # Títulos y leyenda
-    plt.title("Tiempo de ejecución y cantidad de caballos por tamaño de tablero")
+    plt.title("Tiempo de ejecución por tamaño de tablero")
     fig.tight_layout()
 
     # Crear el directorio si no existe
