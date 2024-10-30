@@ -9,7 +9,7 @@ imgs_path = Path.cwd() / "ia_practica_1/imgs"
 def create_byb_chart():
     # Datos de la tabla
     tableros = ["2x2", "3x3", "3x5", "5x5", "8x8"]
-    tiempos = [0.000, 0.008, 0.040, 0.315, 7.134]
+    tiempos = [0.000, 0.000, 0.004, 0.011, 0.103]
     # caballos = [4, 4, 5, 10, 24]
 
     # Crear la figura y los ejes
