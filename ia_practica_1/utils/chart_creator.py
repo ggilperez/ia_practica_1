@@ -44,7 +44,7 @@ def create_byb_chart():
 def create_astar_chart():
     # Datos de la tabla
     tableros = ["2x2", "3x3", "3x5", "5x5", "8x8"]
-    tiempos = [0.001, 0.003, 0.034, 5*60, 5*60]
+    tiempos = [0.001, 0.003, 0.034, 0.229, 5*60]
     # caballos = [4, 4, 5, 10, 24]
 
     # Crear la figura y los ejes
@@ -76,5 +76,5 @@ def create_astar_chart():
 
     plt.show()
 
-create_byb_chart()
+# create_byb_chart()
 create_astar_chart()
